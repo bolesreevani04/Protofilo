@@ -107,7 +107,7 @@ ul li a:hover::before {
 li a.active,
 li a:hover {
     background: #F7086C;
-    background: linear-gradient(to right, #F7086C 0%, #35c9fc 100%);
+    background: linear-gradient(to right, #11a1c2 0%, #3012db 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -124,7 +124,7 @@ li a:hover {
     font-size: 1.4rem;
     cursor: pointer;
     background: #F7086C;
-    background: linear-gradient(to right, #F7086C 0%, #35c9fc 100%);
+    background: linear-gradient(to right, #19bcd2 0%, #320fe2 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     opacity: 0;
@@ -165,7 +165,7 @@ li a:hover {
 }
 
 .social a {
-    background: linear-gradient(to right, #F7086C 0%, #35c9fc 100%);
+    background: linear-gradient(to right, #1091d1 0%, #260ac4 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     border: 1.6px solid;
@@ -185,20 +185,20 @@ span
 {
     
     background: #F7086C;
-    background: linear-gradient(to right, #F7086C 0%, #35c9fc 100%);
+    background: linear-gradient(to right, #0a8bba 0%, #1419c0 100%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
 .social a:hover {
     -webkit-background-clip: text;
     -webkit-text-fill-color: var(--primary-dark);
-    background: linear-gradient(90deg, rgba(255,95,109,1) 0%, rgba(53,201,252,1) 100%);
+    background: linear-gradient(90deg, rgb(14, 139, 185) 0%, rgb(28, 23, 176) 100%);
     box-shadow: 0 0 20px;
     transition: all .3s ease-in-out;
 }
 .detail span {
     background: #F7086C;
-    background: linear-gradient(to right, #F7086C 0%, #35c9fc 100%);
+    background: linear-gradient(to right, #1c98da 0%, #2416c4 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -212,7 +212,7 @@ span
 }
 .images {
     opacity: 0;
-    animation: imageAni 1s ease forwards;
+    animation: imageAni 1s ease backwards;
     animation-delay: .8s;
     position: relative;
 }
@@ -227,13 +227,14 @@ span
 }
 .images img {
     position: relative;
+    object-fit: cover;
 }
 .image
 {
     margin-top: 50px;
     width: 35vw;
     height: 50vh;
-    border-radius: 30px;
+    border-radius: 50px;
     opacity: 0;
     animation: imageAni 1s ease forwards;
     animation-delay: .8s;
@@ -260,8 +261,8 @@ image::before {
 /*About Section*/
 #about_section
 {
-    background-color: black;
-    color: white;
+    background-color: blueviolet;
+    color: black;
     margin-top: 30px;
 }
 .main2
@@ -325,7 +326,7 @@ tr td
     font-size: 1.2rem;
     
     background: #F7086C;
-    background: linear-gradient(to right, #F7086C 0%, #35c9fc 100%);
+    background: linear-gradient(to right, #189dbe 0%, #2815d6 100%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     margin-top: 4px;
@@ -334,7 +335,7 @@ tr td
     height: 42px;
     width: 132px;
     border-radius: 36px;
-    background: linear-gradient(to right, #F7086C 0%, #35c9fc 100%);
+    background: linear-gradient(to right, #0ed1df 0%, #2311c6 100%);
     margin-top: 2rem;
     padding: 1px;
     opacity: 0;
@@ -347,7 +348,7 @@ tr td
     width: 132px;
     border-radius: 36px;
     border: 0;
-    background-color: #fff;
+    background-color: #d813c5;
     font-family: var(--primary-font);
     font-weight: 600;
     font-size: 1.01rem;
@@ -357,7 +358,7 @@ tr td
 .detail button:hover {
     -webkit-background-clip: text;
     -webkit-text-fill-color: var(--primary-dark);
-    background: linear-gradient(90deg, rgba(255,95,109,1) 0%, rgba(53,201,252,1) 100%);
+    background: linear-gradient(90deg, rgb(12, 156, 222) 0%, rgb(21, 28, 224) 100%);
     transition: all .3s ease-in-out;
 }
 /*Skills Section*/
@@ -372,7 +373,7 @@ tr td
     width: 50%;
     margin-top: 50px;
     margin-right: auto;
-    animation: leftSideAni 2s ease-in-out;
+    animation: leftSideAni 1s ease-in-out;
 }
 .right_side1
 {
@@ -398,7 +399,7 @@ tr td
 
   .skillsImages div
   {
-    display: inline;
+    display: inline-block;
     
   }
   .skillsImages img
@@ -582,7 +583,7 @@ input:focus, textarea:focus{
     height: 42px;
     width: 132px;
     border-radius: 36px;
-    background: linear-gradient(to right, #F7086C 0%, #35c9fc 100%);
+    background: linear-gradient(to right, #11a6d3 0%, #0e24d0 100%);
     margin-top: 2rem;
     padding: 1px;
     opacity: 0;
